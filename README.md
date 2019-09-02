@@ -1,5 +1,6 @@
 # Particle Waves
-ParticleWaves uses computer animation to simulate 2D elastic collisions between particles. Additionally, the user can create barriers and sinusoidal particle jets to simulate a variety of particle and wave phenomena. The simulation is based on the laws of physics, under the following assumptions and simplifications: <br>
+ParticleWaves uses computer animation to simulate 2D elastic collisions between particles. Additionally, the user can create barriers and sinusoidal particle jets to simulate a variety of particle and wave phenomena. The simulation is based on the laws of physics, under the following assumptions and simplifications: 
+
 • All collisions between particles, and between particles and barriers, are elastic. That is, both momentum and energy are conserved. <br>
 • All particles have equal radius and mass. <br>
 • Rotation and spin effects are ignored. <br>
@@ -24,7 +25,8 @@ If the user wants to generate a particle with a custom position and velocity, th
 
 The user can add as many jets and barriers as they please, but having more than 5 of either will cause the program to lag significantly. The user can also delete jets and barriers by pressing the “Delete”button.
 
-<strong>D. Cycling and Reflection.</strong> Once there are more than 300 particles on the screen, the user can choose to generate jet particles by redrawing particles from the left and/or right sides of the screen at the jets’ positions. This prevents excessive particle buildup and reduces lag. If there are more than 1600 particles, the program will automatically switch to “Multi” cycling, in which particles are randomly pulled from the right or left side of the screen. <br>
+<strong>D. Cycling and Reflection.</strong> Once there are more than 300 particles on the screen, the user can choose to generate jet particles by redrawing particles from the left and/or right sides of the screen at the jets’ positions. This prevents excessive particle buildup and reduces lag. If there are more than 1600 particles, the program will automatically switch to “Multi” cycling, in which particles are randomly pulled from the right or left side of the screen.
+
 The user can also toggle particle reflection off the sides of the screen to suit their needs. For example, a simulation of the Doppler effect would work best with reflection turned off on at least two sides of the screen; the side towards which the particles are moving, and the side towards which the jets are moving.
 
 <strong>Inputs to the program</strong> <br>
