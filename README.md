@@ -1,18 +1,12 @@
 # Particle Waves
-ParticleWaves uses computer animation to simulate 2D elastic collisions between particles. Additionally, the user can create barriers and sinusoidal particle jets to simulate a variety of particle and wave phenomena. The simulation is based on the laws of physics, under the following assumptions and simplifications:
+ParticleWaves uses computer animation to simulate 2D elastic collisions between particles. Additionally, the user can create barriers and sinusoidal particle jets to simulate a variety of particle and wave phenomena. The simulation is based on the laws of physics, under the following assumptions and simplifications: <br>
+• All collisions between particles, and between particles and barriers, are elastic. That is, both momentum and energy are conserved. <br>
+• All particles have equal radius and mass. <br>
+• Rotation and spin effects are ignored. <br>
+• Gravitational forces are ignored. <br>
 
-• All collisions between particles, and between particles and barriers, are elastic. That is, both momentum and energy are conserved.
-
-• All particles have equal radius and mass.
-
-• Rotation and spin effects are ignored.
-
-• Gravitational forces are ignored.
-
-
-<strong> Features </strong>
-
-A. Random distribution. By clicking the “Random” button, 500 particles are randomly distributed over the screen and given random initial velocities. The average speed is set by the slider below. Additional controls over random generation (number of particles, orientation, speed variance, etc.) have been conceptualized but not implemented. 
+<strong> Features </strong> <br>
+<strong> A. Random distribution.</strong> By clicking the “Random” button, 500 particles are randomly distributed over the screen and given random initial velocities. The average speed is set by the slider below. Additional controls over random generation (number of particles, orientation, speed variance, etc.) have been conceptualized but not implemented.<br>
 ![](images/image1.jpg)
 
 If the user wants to generate a particle with a custom position and velocity, they can do so by selecting New → Particle. 
