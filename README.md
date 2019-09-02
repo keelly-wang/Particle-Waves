@@ -1,8 +1,12 @@
 # Particle Waves
 ParticleWaves uses computer animation to simulate 2D elastic collisions between particles. Additionally, the user can create barriers and sinusoidal particle jets to simulate a variety of particle and wave phenomena. The simulation is based on the laws of physics, under the following assumptions and simplifications:
-• All collisions between particles, and between particles and barriers, are elastic. That is, both momentum and energy are conserved. 
+
+• All collisions between particles, and between particles and barriers, are elastic. That is, both momentum and energy are conserved.
+
 • All particles have equal radius and mass.
+
 • Rotation and spin effects are ignored.
+
 • Gravitational forces are ignored.
 
 <strong> Features </strong>
