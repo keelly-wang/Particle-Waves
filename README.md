@@ -9,7 +9,9 @@ ParticleWaves uses computer animation to simulate 2D elastic collisions between 
 
 • Gravitational forces are ignored.
 
+
 <strong> Features </strong>
+
 A. Random distribution. By clicking the “Random” button, 500 particles are randomly distributed over the screen and given random initial velocities. The average speed is set by the slider below. Additional controls over random generation (number of particles, orientation, speed variance, etc.) have been conceptualized but not implemented. 
 ![](images/image1.jpg)
 
