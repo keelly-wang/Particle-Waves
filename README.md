@@ -6,6 +6,8 @@ ParticleWaves uses computer animation to simulate 2D elastic collisions between 
 • Rotation and spin effects are ignored. <br>
 • Gravitational forces are ignored. <br>
 
+Note: the G4P library and tool must be installed before running this program. <br>
+
 <strong> Features </strong> <br>
 <strong>A. Random distribution.</strong> By clicking the “Random” button, 500 particles are randomly distributed over the screen and given random initial velocities. The average speed is set by the slider below. Additional controls over random generation (number of particles, orientation, speed variance, etc.) have been conceptualized but not implemented.
 
